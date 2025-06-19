@@ -8,22 +8,36 @@ Installation et lancement
 --------------------------
 
 1. Cloner le projet :
-   git clone https://github.com/HIssa619/HRnet-project.git
-   cd HRnet-project
+```bash
+git clone https://github.com/Asma-A-S/HRnet-projet-14.git
+cd hrnet-react
+```
+
 
 2. Installer les dépendances :
+```
    npm install
-
+```
 3. Lancer l'application en mode développement :
+```   
    npm run dev
-
+```
 4. Créer un build de production :
+```
    npm run build
-
-5. Servir la version de production localement :
+   npm run preview
+```
+6. Servir la version de production localement :
+```   
    npm install -g serve
    serve -s dist
+```
+7. Vider la liste des emplyées 
 
+```
+localStorage.removeItem('employees')
+window.location.reload()
+```
 Fonctionnalités principales
 ---------------------------
 
